@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul d'IMC TP4 DANDAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculateur d'IMC</h1>
+        <form id="imcForm">
+            <div class="form-group">
+                <label for="height">Entrez votre taille (en mètres) :</label>
+                <input type="number" id="height" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Entrez votre poids (en kg) :</label>
+                <input type="number" id="weight" required>
+            </div>
+            <button type="submit">Calculer l'IMC</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
